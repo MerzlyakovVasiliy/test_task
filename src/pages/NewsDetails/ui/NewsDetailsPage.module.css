@@ -1,13 +1,13 @@
 .page {
     max-width: 700px;
-    margin: 40px auto;
+    margin: 0 auto;
     padding: 24px;
     background: #fff;
     border-radius: 16px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     display: flex;
     flex-direction: column;
-    min-height: 80vh;
+    height: 100%;
 }
 
 .title {
@@ -27,6 +27,7 @@
     white-space: pre-wrap;
     color: #333;
     margin-top: 20px;
+    overflow-y: auto;
 }
 
 .actions {

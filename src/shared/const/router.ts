@@ -10,4 +10,4 @@ export type RoutePath = string;
 export const getRouteMain = (): RoutePath => '/';
 export const getRouteNewsCreate = (): RoutePath => '/news/create';
 export const getRouteNewsEdit = (id: string): RoutePath => `/news/${id}/edit`;
-export const getRouteNewsDetails = (id: string): RoutePath => `news/${id}`;
+export const getRouteNewsDetails = (id: string): RoutePath => `news/details/${id}`;

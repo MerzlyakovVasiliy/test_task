@@ -9,7 +9,7 @@ import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename={'/test_task'}>
             <Provider store={store}>
                 <PersistGate loading={null} persistor={persistor}>
                     <App/>
