@@ -1,1 +1,0 @@
-import{j as r}from"./index-BtC0DXSG.js";import{P as s}from"./Page-BFUEh4gX.js";import{N as o}from"./NewsForm-CX9cUUxq.js";import"./useMediaQuery-BERklUC5.js";const i=()=>r.jsxs(s,{children:[r.jsx("h1",{children:"Добавление новости"}),r.jsx(o,{})]});export{i as default};
