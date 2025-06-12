@@ -1,0 +1,1 @@
+import{u as o,e as n,j as s}from"./index-BtC0DXSG.js";import{P as t}from"./Page-BFUEh4gX.js";import{N as m}from"./NewsForm-CX9cUUxq.js";import"./useMediaQuery-BERklUC5.js";const l=()=>{const{id:r}=o(),e=n(i=>i.news.list.find(a=>a.id===r));return e?s.jsx(t,{children:s.jsx(m,{initialData:e})}):s.jsx(t,{children:"Новость не найдена"})};export{l as default};
