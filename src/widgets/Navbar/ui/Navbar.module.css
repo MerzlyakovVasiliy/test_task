@@ -1,0 +1,30 @@
+.Navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: #222;
+    padding: 16px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.createBtn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+    font-size: 14px;
+}
+
+.createBtn:hover {
+    background-color: #0056b3;
+}
